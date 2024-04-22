@@ -1,0 +1,13 @@
+{
+	"name": "youtube-unlocker",
+	"version": "0.0.91",
+	"manifest_version": 2,
+	"description": "Simple hack to ommit YT block when using adblocker.",
+	"developer": "marcin228",
+	"content_scripts": [
+		{
+			"matches": ["https://www.youtube.com/*", "http://www.youtube.com/*", "https://youtube.com/*", "http://youtube.com/*"],
+			"js": ["youtube-unlocker.js"]
+		}
+	]
+}
