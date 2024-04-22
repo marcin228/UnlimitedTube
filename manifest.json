@@ -1,13 +1,13 @@
 {
-	"name": "youtube-unlocker",
+	"name": "UnlimitedTube",
 	"version": "0.0.91",
 	"manifest_version": 2,
-	"description": "Simple hack to ommit YT block when using adblocker.",
+	"description": "Extension that ensures your videos remain uninterrupted even when using an ad blocker.",
 	"developer": "marcin228",
 	"content_scripts": [
 		{
 			"matches": ["https://www.youtube.com/*", "http://www.youtube.com/*", "https://youtube.com/*", "http://youtube.com/*"],
-			"js": ["youtube-unlocker.js"]
+			"js": ["UnlimitedTube.js"]
 		}
 	]
 }
